@@ -1,0 +1,111 @@
+/**index.wxss**/
+page {
+   overflow: hidden; 
+   background: #EAF0FB; 
+}
+.slider {
+  margin-top: 20%;
+  width: 650rpx;
+  margin-left: 40rpx;
+}
+.task_text {
+  margin-top: 100px;
+  height: 120rpx;
+  margin-left: 40rpx ;
+  text-align: center;
+}
+.task_text .task_title {
+  font-size: 35rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.task_text .task_desc {
+  font-size: 30rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #999999;
+}
+.task_cate {
+  width: 660rpx;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.task_cate .cate_item {
+  width: 220rpx;
+  height: 130rpx;
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+.task_cate .cate_item .cate_icon {
+  height: 70rpx;
+}
+.task_cate .cate_item .cate_icon image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.task_cate .cate_item .cate_text {
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.task_cate .cate_item .cate_text_active {
+  color: #437dd4;
+}
+.start {
+  margin-top: 30%;
+  width:40%; 
+  height:100rpx; 
+  line-height:100rpx; 
+  margin-left:30%; 
+  margin-right:30%;
+  padding:0rpx;
+  background-color: #437dd4;
+  color: white;
+  font-size: 33rpx;
+  border-radius: 20rpx;
+  text-align: center;
+}
+.clock {
+  overflow: hidden;
+  background: #EAF0FB;
+}
+.progress {
+  width: 400rpx;
+  height: 400rpx;
+  /* background: orange; */
+  margin: 140rpx auto;
+  position: relative;
+}
+.progress .progress_bg,.progress .progress_active {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400rpx;
+  height: 400rpx;
+}
+.progress .progress_text {
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 35rpx;
+  color: #437dd4;
+  text-align: center;
+  position: absolute;
+  left: 120rpx;
+  top: 170rpx;
+}
+.btns .okBtn,.btns .pauseBtn,.btns .continueBtn,.btns .cancleBtn {
+  margin-top: 20%;
+  width:40%; 
+  height:100rpx; 
+  line-height:100rpx; 
+  margin-left:30%; 
+  margin-right:30%;
+  padding:0rpx;
+  background-color: #437dd4;
+  color: white;
+  font-size: 33rpx;
+  border-radius: 20rpx;
+  text-align: center;
+}
